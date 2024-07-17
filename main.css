@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.header  /* HEADER */
+{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 0.7fr 6fr 0.7fr 0.7fr 0.7fr ; 
+    
+} 
+
+
+.logo img   /* LOGO */
+{    
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+}
+
+
+.head-top  /* HEADING  */
+{
+    margin-top: 18px;
+}
+
+
+.head-top p   /* HEADING  */
+{
+    font-size: 15px;
+    font-family: fantasy;
+    color: white;       
+}
+
+.head-top span    /* HEADING  */
+{
+    font-size: 30px;
+    font-family: fantasy;
+    color: white;
+}
+
+
+.btn button   /* BUTTONS  */
+{
+   padding: 10px;
+   margin-top: 10px;
+   background-color: rgba(18, 18, 18, 0);
+   color: #99642e;
+   border: 0;
+   font-size: 25px;
+}
+
+
+.btn a  /* BUTTONS NAMES  */
+{
+    text-decoration: none;
+    color: white;
+    font-family: fantasy;
+    font-size: 18px;
+}
+
+
+.btn-contact button /* BUTTONS  */
+{
+    margin-left: 15px;
+}
+.btn-home button   /* BUTTONS  */
+{
+    margin-right:10px ;
+}
+
+
+.menu{
+    height: 40px;
+    width: 100% ;
+    background-color: #99642e;
+    
+}
+
+table{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin: auto;
+    
+}
+td{
+    width: max-content;
+    padding: 5px;
+    padding-right: 25px;
+    
+}
+td a{
+    text-decoration: none;
+    color: black;
+    font-family: fantasy;
+}
+
+td a:hover{
+    text-decoration: none;
+    color: rgb(79, 19, 19);
+    font-family: fantasy;
+}
+
+.home-page{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-column-gap: 30px;
+    background-color: rgb(32, 32, 32);
+
+}
+.image-plot{
+    background-color: rgb(32, 32, 32);
+}
+.image-plot img{
+    height: 500px;
+    width: 500px;
+    margin-left: 100px;
+    margin-top: 100px;
+    border-style:ridge ;
+    border: 5px ridge white;
+    
+    
+}
+
+.history h1{
+    font-size: 36px;
+    margin-bottom: 15px;
+    margin-top: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.history span{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: auto;
+}
+
+.history{
+    padding-left: 50px;
+    padding-right:50px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding-top:5px;
+    padding-bottom: 30px;
+    gap: 10px;
+    background-color:rgb(32, 32, 32);
+    color: rgb(209, 209, 209);
+    border: 5px ridge white;
+    margin-right: 50px;
+}
